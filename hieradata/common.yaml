@@ -1,0 +1,13 @@
+---
+classes:
+  - apt
+  - locales
+  - ssh
+  - motd
+  - denyhosts
+  - sudo
+  - ufw
+  - timezone
+  - ntp
+timezone:timezone: 'UTC'
+ntp:ensure: latest
